@@ -4,7 +4,7 @@ from langgraph.graph import StateGraph, START, END
 from langchain_openai import ChatOpenAI
 from langchain_core.messages import HumanMessage
 
-os.environ["HF_TOKEN"]="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"
+os.environ["HF_TOKEN"]=""
 class EmailState(TypedDict):
     # The email being processed
     email: Dict[str, Any]  # Contains subject, sender, body, etc.
