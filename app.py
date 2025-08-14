@@ -15,7 +15,7 @@ import re
 # --- Constants ---
 DEFAULT_API_URL = "https://agents-course-unit4-scoring.hf.space"
 
-os.environ["HF_TOKEN"]="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"
+os.environ["HF_TOKEN"]=""
 
 # Configuration
 MODEL_ID = "TheBloke/Mistral-7B-Instruct-v0.1-GPTQ"  # 4.2GB quantized
