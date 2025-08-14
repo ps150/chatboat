@@ -1,6 +1,6 @@
 import os
 from smolagents import Tool, CodeAgent, HfApiModel
-os.environ["HF_TOKEN"]="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"
+os.environ["HF_TOKEN"]=""
 
 class SuperheroPartyThemeTool(Tool):
     name = "superhero_party_theme_generator"
