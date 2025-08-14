@@ -6,7 +6,7 @@ from llama_index.core.workflow import Context
 import asyncio
 import os;
 
-os.environ["HF_TOKEN"]="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"
+os.environ["HF_TOKEN"]=""
 
 
 hf_token = os.getenv("HF_TOKEN")
