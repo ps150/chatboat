@@ -1,7 +1,7 @@
 import os
 from huggingface_hub import InferenceClient
 
-os.environ["HF_TOKEN"]="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"
+os.environ["HF_TOKEN"]=""
 
 client = InferenceClient("meta-llama/Llama-3.2-3B-Instruct")
 # if the outputs for next cells are wrong, the free model may be overloaded. You can also use this public endpoint that contains Llama-3.2-3B-Instruct
