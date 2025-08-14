@@ -2,7 +2,7 @@ from llama_index.llms.huggingface_api import HuggingFaceInferenceAPI
 import os
 from dotenv import load_dotenv
 
-os.environ["HF_TOKEN"]="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"
+os.environ["HF_TOKEN"]=""
 
 load_dotenv()
 
