@@ -1,7 +1,7 @@
 import os
 from smolagents import CodeAgent, DuckDuckGoSearchTool, HfApiModel, tool
 
-os.environ["HF_TOKEN"]="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"
+os.environ["HF_TOKEN"]=""
 
 model = HfApiModel(model_id="Qwen/Qwen2.5-Coder-3B-Instruct")
 
